@@ -12,5 +12,12 @@ public class HomeController {
 	{
 		return "Das Boot, returning for Duty!!";
 	}
+	
+@RequestMapping("/hello")
+	
+	public String hello()
+	{
+		return "Das Boot, returning for Duty!!";
+	}
 
 }
